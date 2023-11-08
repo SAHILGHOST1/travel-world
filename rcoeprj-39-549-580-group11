@@ -8,19 +8,49 @@ Tic Tac Toe is a classic two-player strategy game played on a 3x3 grid. Players 
 2. SALUNKHE AARTI KIRAN 
 
 ### Project Guides
-    No guides assigned.
+    Prof.Mohd Ashfaque Shaikh
 
 ### Deployment Steps
 Please follow the below steps to run this project.
-1. Step 1 here
-2. Step 2 here
-3. Step 3 here
-3. and so on...
+ Initialize the Game Board:
+Create a 3x3 grid (array) to represent the game board.
+Initialize the grid with empty cells (e.g., use a 2D array of characters, such as ' ').
+Display the Game Board:
+Create a method to display the current state of the game board.
+Player Input:
+Implement logic to allow two players to take turns.
+Prompt each player for their move (e.g., row and column).
+Move Validation:
+Check if the selected cell is empty and within the valid range of the game board.
+If the move is valid, update the game board with the player's symbol ('X' or 'O').
+Check for a Win:
+After each move, check if the current player has won the game.
+Check for winning combinations in rows, columns, and diagonals.
+Check for a Draw:
+Check if the game has ended in a draw (all cells are filled, and no player has won).
+Switch Players:
+After each move, switch to the other player's turn.
+Display Game Outcome:
+When the game is won, declare the winner.
+When the game is a draw, announce the draw.
+Restart or Quit Option:
+Allow players to choose to restart the game or quit.
+Create a Main Loop:
+Implement a main loop to manage the flow of the game, where players take turns until there is a winner or a draw.
+User Interface (Optional):
+Create a graphical user interface (GUI) to make the game more user-friendly.
+Error Handling:
+Implement error handling to handle invalid input or other issues gracefully.
+Testing:
+Thoroughly test your game to ensure it functions correctly under various scenarios.
+
+
+
 
 ### Subject Details
 - Class : SE (COMP) Div A - 2023-2024
 - Subject : Skill base Lab course:Object Oriented Programming with Java (OOPM(2019)(P))
-- Project Type : Mini Project
+- Project Type : Mini Project Java 
 
 ### Platform, Libraries and Frameworks used
 1. [NodeJS](https://nodejs.org)
@@ -32,5 +62,4 @@ Please follow the below steps to run this project.
 2. [Kaggle Dataset 2](https://kaggle.com/dataset2)
 
 ### References
-- [https://kaggle.com/dataset1](https://kaggle.com/dataset1)
-- [https://kaggle.com/dataset1](https://kaggle.com/dataset1)
+https://www.jetbrains.com/help/idea/getting-started.html https://www.oracle.com/in/java/technologies/downloads/ https://en.wikipedia.org/wiki/Tic-tac-toe https://docs.oracle.com/javase/8/docs/api/java/awt/Graphics.html https://docs.oracle.com/javase/tutorial/deployment/jar/basicsindex.htm
